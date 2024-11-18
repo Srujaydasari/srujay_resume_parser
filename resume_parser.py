@@ -444,30 +444,6 @@ if uploaded_files:
             st.markdown('</div>', unsafe_allow_html=True)
 
 
-st.markdown(
-    """
-    <style>
-    .footer-left {
-        position: fixed;
-        bottom: 10px;
-        left: 10px;
-        font-size: 14px;
-        color: #777; /* Lighter gray for better visibility */
-        text-align: left;
-        z-index: 1000;
-    }
-    .footer-left a {
-        color: #007BFF; /* Blue color for the link */
-        text-decoration: none;
-    }
-    .footer-left a:hover {
-        text-decoration: underline; /* Underline on hover for better user experience */
-    }
-    </style>
-    <div class="footer-left">
-        Made using <a href="https://www.streamlit.io/" target="_blank">Streamlit</a>
-    </div>
-    """, unsafe_allow_html=True)
 
 # Add footer for 'Created by Srujay' on the right side
 st.markdown("""
